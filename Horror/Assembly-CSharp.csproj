@@ -62,11 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DownloadAsset\Controller Tester\Scripts\DetectUnknownControllerMappings.cs" />
-    <Compile Include="Assets\Sorce\Camera\BattryBlock.cs" />
-    <Compile Include="Assets\Sorce\Camera\CameraManager.cs" />
-    <Compile Include="Assets\Sorce\Camera\Tablet.cs" />
     <Compile Include="Assets\Sorce\Player\CameraAngle.cs" />
-    <Compile Include="Assets\Sorce\Player\CameraChange.cs" />
     <Compile Include="Assets\Sorce\Player\Move.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Private/Programming/Unity/Team/HorrorCamera/Horror/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
