@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DownloadAsset\Controller Tester\Scripts\DetectUnknownControllerMappings.cs" />
+    <Compile Include="Assets\Sorce\Camera\CameraControl.cs" />
     <Compile Include="Assets\Sorce\Player\CameraAngle.cs" />
     <Compile Include="Assets\Sorce\Player\Move.cs" />
     <Reference Include="UnityEditor.StandardEvents">
