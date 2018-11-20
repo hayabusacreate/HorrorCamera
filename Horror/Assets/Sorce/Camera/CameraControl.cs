@@ -101,7 +101,7 @@ public class CameraControl : MonoBehaviour
         }
 
         //　カメラロールを戻す
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetButtonDown("KeyPad_L1"))
         {
             if (currentCamera <= 0) { currentCamera = cameras.Count -1; return; }
             currentCamera--;
