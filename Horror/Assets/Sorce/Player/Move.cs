@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Move : MonoBehaviour {
 
-    public float speed = 0.1f;
+    public float speed;
     public GameObject playerCamera;
     public float rotate_speed;
+    private float current_speed;
 
     // Use this for initialization
     void Start () {
@@ -23,14 +24,39 @@ public class Move : MonoBehaviour {
 
     void Movement()
     {
-        if(Input.GetAxis("Vertical") > 0.7f)
+
+        Dash();
+
+        if (Input.GetAxis("Vertical") > 0.7f)
         {
-            transform.position += transform.TransformDirection(Vector3.forward) * speed;
+            transform.position += transform.TransformDirection(Vector3.forward) * current_speed;
         }
 
         if (Input.GetAxis("Vertical") < -0.7f)
         {
-            transform.position += transform.TransformDirection(Vector3.back) * speed;
+            transform.position += transform.TransformDirection(Vector3.back) * current_speed;
+        }
+
+        if(Input.GetAxis("Horizontal") > 0.7f)
+        {
+            transform.position += transform.TransformDirection(Vector3.right) * (current_speed / 2);
+        }
+
+        if (Input.GetAxis("Horizontal") < -0.7f)
+        {
+            transform.position += transform.TransformDirection(Vector3.left) * (current_speed / 2);
+        }
+    }
+
+    void Dash()
+    {
+        if (Input.GetButton("KeyPad_R1"))
+        {
+            current_speed = speed * 2;
+        }
+        else
+        {
+            current_speed = speed;
         }
     }
 

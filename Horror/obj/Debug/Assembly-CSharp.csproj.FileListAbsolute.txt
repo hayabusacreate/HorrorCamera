@@ -504,3 +504,12 @@ C:\Private\Programming\Unity\Team\HorrorCamera\Horror\obj\Debug\Assembly-CSharp.
 C:\Private\Programming\Unity\Team\HorrorCamera\Horror\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Private\Programming\Unity\Team\HorrorCamera\Horror\obj\Debug\Assembly-CSharp.dll
 C:\Private\Programming\Unity\Team\HorrorCamera\Horror\obj\Debug\Assembly-CSharp.pdb
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\Facebook.Unity.Settings.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\KdTreeLib.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\pb_Stl.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\Poly2Tri.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\ProBuilderCore.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\ProBuilderMeshOps.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\Unity.ProBuilder.AddOns.Editor.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\Unity.ProGrids.dll
+C:\Private\Programming\Unity\Team\HorrorCamera\Horror\Temp\bin\Debug\Unity.ProGrids.Editor.dll

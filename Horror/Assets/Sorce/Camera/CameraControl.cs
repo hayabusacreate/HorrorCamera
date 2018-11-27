@@ -33,18 +33,22 @@ public class CameraControl : MonoBehaviour
     private void CameraInitialize()
     {
         // プレイヤーのカメラだけをオンにする
-        cameras.ForEach(c => c.SetActive(false));
+        foreach(GameObject camera in cameras)
+        {
+            if(camera == null) { return; }
+            camera.SetActive(false);
+        }
 
         minimap_UI.SetActive(false);
         area_name_UI.SetActive(false);
 
-        for (int i = 0; i < cameras.Count; i++)
-        {
-            if (cameras[i].name.Contains("Player"))
-            {
-                cameras[i].SetActive(true);
-            }
-        }
+        //for (int i = 0; i < cameras.Count; i++)
+        //{
+        //    if (cameras[i].name.Contains("Player"))
+        //    {
+        //        cameras[i].SetActive(true);
+        //    }
+        //}
 
         cameraMode = CameraMode.Player;
     }
@@ -111,6 +115,7 @@ public class CameraControl : MonoBehaviour
         // プレイヤーカメラ以外に切り替える
         for (int i = 0; i < cameras.Count; i++)
         {
+            if (cameras[i] == null) { return; }
             if (cameras[i].activeSelf == true) { cameras[i].SetActive(false); }
 
             cameras[currentCamera].SetActive(true);
