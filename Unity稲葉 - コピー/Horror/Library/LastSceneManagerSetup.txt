@@ -1,0 +1,8 @@
+sceneSetups:
+<<<<<<< HEAD:Horror/Library/LastSceneManagerSetup.txt
+- path: Assets/Scenes/I_Camera.unity
+=======
+- path: Assets/Scenes/ooishiTest.unity
+>>>>>>> e7933097607430ed9c6f5c5a8cd3fa8ae505e3b0:Unity稲葉 - コピー/Horror/Library/LastSceneManagerSetup.txt
+  isLoaded: 1
+  isActive: 1
